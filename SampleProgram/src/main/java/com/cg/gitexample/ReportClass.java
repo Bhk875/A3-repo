@@ -7,10 +7,10 @@ public class ReportClass {
 	int a[]= {1,2,3,4,5};
 	public void print()
 	{
-		int sum=0;
-		for(int i=0;i<a.length;i++)
-			sum+=a[i];
-		System.out.println(sum);
+		for(int i:a)
+		System.out.println(i);
+		System.out.println("Sum will be calculated later");
+		System.out.println("new message");
 	}
 
 }
